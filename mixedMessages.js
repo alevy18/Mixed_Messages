@@ -28,9 +28,9 @@ nLib.forEach(noun => {
 })
 
 adjLib.forEach(word => {
-    dicWord = word.substring(0, word.indexOf('\t')).trim()
+    dicWord = word.substring(0, word.indexOf('\t'))
     if (dicWord.length !== 0){
-        newAdjLib.push(dicWord.trim())
+        newAdjLib.push(dicWord)
     }
 })
 
